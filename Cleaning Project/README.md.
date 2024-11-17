@@ -1,0 +1,21 @@
+# Cleaning Project
+
+This project is part of the OIBSIP program. It involves cleaning, processing, and analyzing data to generate meaningful insights.
+
+## Features
+- Data preprocessing
+- Statistical analysis
+- Visualizations
+
+## Technologies Used
+- Python
+- Pandas
+- Matplotlib/Plotly
+
+## How to Use
+1. Clone the repository.
+2. Install the dependencies.
+3. Run the scripts as outlined in the `me` file.
+
+## Author
+Gabriel Olaitan

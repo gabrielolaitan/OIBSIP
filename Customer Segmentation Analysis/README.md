@@ -185,12 +185,15 @@ Beyond this point, the decrease in within-cluster sum of squares (inertia) becom
 Cluster 0: Premium
 - Customers with high income and high spending.
 - Represent the most affluent segment, with frequent purchases and high transaction values.
+
 Cluster 1: Budget Conscious
 - Customers with low income and low spending.
 - Display price-sensitive behavior, often purchasing lower-priced items.
+
 Cluster 2: High-Value
 - Customers with above-average income and spending.
 - Consistent buyers with strong spending patterns, making them highly valuable.
+
 Cluster 3: Mid-Market
 - Customers with average income and low spending.
 - Balanced purchasing behavior, with opportunities for increased engagement.

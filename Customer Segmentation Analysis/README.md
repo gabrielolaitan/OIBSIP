@@ -142,8 +142,9 @@ The dataset used for this analysis includes a wide range of customer demographic
 - Analysis - jupyter notebook
 - Visualization - jupyter notebook
 
+# Methodology
 
-## Data Cleaning and Preparation
+### Data Cleaning and Preparation
 
 Before analyzing the data, several steps were taken to clean and prepare the dataset for analysis. This phase ensures that the data is consistent, accurate, and ready for statistical modeling or segmentation.
 
@@ -164,5 +165,22 @@ The following features were scaled using StandardScaler from sklearn.preprocessi
 
 This standardization transforms the features to have a mean of 0 and standard deviation of 1, making them comparable and suitable for various machine learning algorithms. The scaled features were stored in a new DataFrame called scaled_clas.
 
-## Customer Segmentation
+### Customer Segmentation
 K-Means clustering was used to group customers based on their behavioral patterns. The elbow method was applied to identify the optimal number of clusters by evaluating distortion scores for different values of k. The final segmentation resulted in four distinct customer groups.
+
+### Visualization
+Using Python libraries such as matplotlib and seaborn, visualizations were created to illustrate the results of the analysis. Scatter plots were used to depict cluster separation, while bar charts and histograms highlighted key characteristics of each segment.
+
+### Insights and Recommendations
+The characteristics of each cluster were analyzed to derive actionable insights, including spending behavior, purchasing preferences, and potential for targeted marketing.
+
+# Results and Analysis
+### Optimal Number of Clusters
+Our customer segmentation analysis leveraged K-means clustering to identify distinct customer groups, with the optimal number of clusters determined through rigorous elbow method analysis. The implementation of StandardScaler on key features including Income, Total Purchase Amount (MntTotal), Web Purchases, and Store Purchases ensured normalized data distribution for accurate clustering.
+The elbow curve visualization reveals a clear inflection point at k=4, indicating this as the optimal number of clusters. 
+Beyond this point, the decrease in within-cluster sum of squares (inertia) becomes marginal, confirming that four segments provide the most efficient balance between cluster complexity and explanatory power.
+
+### Cluster Characteristics
+
+Cluster 0: Premium Customers exhibit exceptional spending levels and frequent purchases, showing strong correlation between transaction value and frequency. These customers demonstrate consistent buying patterns and represent our most valuable segment in terms of revenue contribution.
+

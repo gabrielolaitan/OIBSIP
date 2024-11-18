@@ -136,3 +136,33 @@ The dataset used for this analysis includes a wide range of customer demographic
 
 ### 39. **AcceptedCmpOverall**
 - The total number of marketing campaigns accepted by the customer.
+
+
+## TOOLS
+- Analysis - jupyter notebook
+- Visualization - jupyter notebook
+
+
+## Data Cleaning and Preparation
+
+Before analyzing the data, several steps were taken to clean and prepare the dataset for analysis. This phase ensures that the data is consistent, accurate, and ready for statistical modeling or segmentation.
+
+### Data Quality Assessment
+
+- A thorough check revealed 184 duplicate records in the dataset, Which was removed.
+- No missing values were found in the dataset
+- Each record was verified to ensure data completeness and consistency
+- After completing these steps, the dataset was ready for exploratory analysis, segmentation, and building machine learning models to uncover valuable insights about customer behavior.
+
+### Data Standardization
+The following features were scaled using StandardScaler from sklearn.preprocessing:
+
+- Income
+- MntTotal (Total Amount Spent)
+- NumWebPurchases
+- NumStorePurchases
+
+This standardization transforms the features to have a mean of 0 and standard deviation of 1, making them comparable and suitable for various machine learning algorithms. The scaled features were stored in a new DataFrame called scaled_clas.
+
+## Customer Segmentation
+K-Means clustering was used to group customers based on their behavioral patterns. The elbow method was applied to identify the optimal number of clusters by evaluating distortion scores for different values of k. The final segmentation resulted in four distinct customer groups.

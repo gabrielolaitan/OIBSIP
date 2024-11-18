@@ -13,3 +13,126 @@ The primary goal of this project is to analyze customer behavior and purchase pa
 ## Data Sources
 
 This dataset was gotten from oasis infobyte internship as part of the required tasks.
+
+# Data Collection and Columns Overview
+
+The dataset used for this analysis includes a wide range of customer demographic and behavioral data. Below is a detailed list and explanation of all the columns in the dataset:
+
+## Columns in the Dataset:
+
+### 1. **Income**
+- Represents the annual income of the customer. This can help analyze spending power and purchasing patterns.
+
+### 2. **Kidhome**
+- The number of children in the customer's household. This influences buying behavior, particularly for family-related products.
+
+### 3. **Teenhome**
+- The number of teenagers in the customer's household. This affects product preferences, such as items for teenagers.
+
+### 4. **Recency**
+- A measure of how recently the customer made a purchase. This is an indicator of customer engagement.
+
+### 5. **MntWines**
+- The total spending on wine products by the customer.
+
+### 6. **MntFruits**
+- The total spending on fruit products by the customer.
+
+### 7. **MntMeatProducts**
+- The total spending on meat products by the customer.
+
+### 8. **MntFishProducts**
+- The total spending on fish products by the customer.
+
+### 9. **MntSweetProducts**
+- The total spending on sweet products by the customer.
+
+### 10. **MntGoldProds**
+- The total spending on gold-related products by the customer.
+
+### 11. **NumDealsPurchases**
+- The number of purchases made using promotional deals or discounts.
+
+### 12. **NumWebPurchases**
+- The number of purchases made online through the company's website.
+
+### 13. **NumCatalogPurchases**
+- The number of purchases made through catalogs or direct mail offers.
+
+### 14. **NumStorePurchases**
+- The number of purchases made in physical stores.
+
+### 15. **NumWebVisitsMonth**
+- The number of times the customer visited the company's website in a given month.
+
+### 16. **AcceptedCmp3**
+- Whether the customer accepted marketing campaign 3 (1 for accepted, 0 for not).
+
+### 17. **AcceptedCmp4**
+- Whether the customer accepted marketing campaign 4 (1 for accepted, 0 for not).
+
+### 18. **AcceptedCmp5**
+- Whether the customer accepted marketing campaign 5 (1 for accepted, 0 for not).
+
+### 19. **AcceptedCmp1**
+- Whether the customer accepted marketing campaign 1 (1 for accepted, 0 for not).
+
+### 20. **AcceptedCmp2**
+- Whether the customer accepted marketing campaign 2 (1 for accepted, 0 for not).
+
+### 21. **Complain**
+- The number of complaints filed by the customer, indicating their level of dissatisfaction.
+
+### 22. **Z_CostContact**
+- The standardized cost of contacting the customer, which can help assess the efficiency of marketing outreach.
+
+### 23. **Z_Revenue**
+- The standardized revenue generated from the customer, indicating their contribution to overall revenue.
+
+### 24. **Response**
+- Whether the customer responded to a marketing campaign (1 for responded, 0 for not).
+
+### 25. **Age**
+- The age of the customer, which can be useful for demographic segmentation.
+
+### 26. **Customer_Days**
+- The number of days since the customer made their first purchase, indicating the length of their relationship with the company.
+
+### 27. **marital_Divorced**
+- Whether the customer is divorced (1 for divorced, 0 for not).
+
+### 28. **marital_Married**
+- Whether the customer is married (1 for married, 0 for not).
+
+### 29. **marital_Single**
+- Whether the customer is single (1 for single, 0 for not).
+
+### 30. **marital_Together**
+- Whether the customer lives with a partner (1 for living together, 0 for not).
+
+### 31. **marital_Widow**
+- Whether the customer is widowed (1 for widow, 0 for not).
+
+### 32. **education_2n Cycle**
+- Whether the customer has completed a secondary education cycle (1 for completed, 0 for not).
+
+### 33. **education_Basic**
+- Whether the customer has a basic level of education (1 for basic, 0 for not).
+
+### 34. **education_Graduation**
+- Whether the customer has completed a graduate-level education (1 for graduated, 0 for not).
+
+### 35. **education_Master**
+- Whether the customer has completed a master's degree (1 for master's, 0 for not).
+
+### 36. **education_PhD**
+- Whether the customer has a PhD (1 for PhD, 0 for not).
+
+### 37. **MntTotal**
+- The total amount spent by the customer across all categories.
+
+### 38. **MntRegularProds**
+- The total spending on regular products, excluding premium items.
+
+### 39. **AcceptedCmpOverall**
+- The total number of marketing campaigns accepted by the customer.

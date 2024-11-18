@@ -199,17 +199,18 @@ Cluster 3: Mid-Market
 - Balanced purchasing behavior, with opportunities for increased engagement.
 
 ### Segment Insights
-1. Premium Customers (Cluster 0)
+#### 1. Premium Customers (Cluster 0)
 
 - Exhibit exceptional spending levels and frequent purchases.
 - Represent the most valuable segment in terms of revenue contribution.
 - Require strategies focused on exclusivity and high-value services.
 
-2. Budget Conscious Customers (Cluster 1)
+#### 2. Budget Conscious Customers (Cluster 1)
 
-Show price-sensitive behavior and lower transaction values.
-Despite lower spending, their large segment size offers significant potential.
-Best approached with value-oriented promotions and incentives.
+- Show price-sensitive behavior and lower transaction values.
+- Despite lower spending, their large segment size offers significant potential.
+- Best approached with value-oriented promotions and incentives.
+
 High-Value Customers (Cluster 2)
 
 Above-average spending and income, with consistent engagement.

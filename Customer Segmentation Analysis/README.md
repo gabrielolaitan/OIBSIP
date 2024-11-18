@@ -148,14 +148,14 @@ The dataset used for this analysis includes a wide range of customer demographic
 
 Before analyzing the data, several steps were taken to clean and prepare the dataset for analysis. This phase ensures that the data is consistent, accurate, and ready for statistical modeling or segmentation.
 
-### Data Quality Assessment
+## Data Quality Assessment
 
 - A thorough check revealed 184 duplicate records in the dataset, Which was removed.
 - No missing values were found in the dataset
 - Each record was verified to ensure data completeness and consistency
 - After completing these steps, the dataset was ready for exploratory analysis, segmentation, and building machine learning models to uncover valuable insights about customer behavior.
 
-### Data Standardization
+## Data Standardization
 The following features were scaled using StandardScaler from sklearn.preprocessing:
 
 - Income
@@ -165,22 +165,22 @@ The following features were scaled using StandardScaler from sklearn.preprocessi
 
 This standardization transforms the features to have a mean of 0 and standard deviation of 1, making them comparable and suitable for various machine learning algorithms. The scaled features were stored in a new DataFrame called scaled_clas.
 
-### Customer Segmentation
+## Customer Segmentation
 K-Means clustering was used to group customers based on their behavioral patterns. The elbow method was applied to identify the optimal number of clusters by evaluating distortion scores for different values of k. The final segmentation resulted in four distinct customer groups.
 
-### Visualization
+## Visualization
 Using Python libraries such as matplotlib and seaborn, visualizations were created to illustrate the results of the analysis. Scatter plots were used to depict cluster separation, while bar charts and histograms highlighted key characteristics of each segment.
 
-### Insights and Recommendations
+## Insights and Recommendations
 The characteristics of each cluster were analyzed to derive actionable insights, including spending behavior, purchasing preferences, and potential for targeted marketing.
 
 # Results and Analysis
-### Optimal Number of Clusters
+## Optimal Number of Clusters
 Our customer segmentation analysis leveraged K-means clustering to identify distinct customer groups, with the optimal number of clusters determined through rigorous elbow method analysis. The implementation of StandardScaler on key features including Income, Total Purchase Amount (MntTotal), Web Purchases, and Store Purchases ensured normalized data distribution for accurate clustering.
 The elbow curve visualization reveals a clear inflection point at k=4, indicating this as the optimal number of clusters. 
 Beyond this point, the decrease in within-cluster sum of squares (inertia) becomes marginal, confirming that four segments provide the most efficient balance between cluster complexity and explanatory power.
 
-### Cluster Characteristics
+## Cluster Characteristics
 
 Cluster 0: Premium
 - Customers with high income and high spending.
@@ -198,14 +198,14 @@ Cluster 3: Mid-Market
 - Customers with average income and low spending.
 - Balanced purchasing behavior, with opportunities for increased engagement.
 
-### Segment Insights
-#### 1. Premium Customers (Cluster 0)
+## Segment Insights
+### 1. Premium Customers (Cluster 0)
 
 - Exhibit exceptional spending levels and frequent purchases.
 - Represent the most valuable segment in terms of revenue contribution.
 - Require strategies focused on exclusivity and high-value services.
 
-#### 2. Budget Conscious Customers (Cluster 1)
+### 2. Budget Conscious Customers (Cluster 1)
 
 - Show price-sensitive behavior and lower transaction values.
 - Despite lower spending, their large segment size offers significant potential.

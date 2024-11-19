@@ -107,7 +107,7 @@ The dataset was found to be clean and complete, with no missing values. This ens
 Key findings were visualized using:
 - **Bar Charts**: To illustrate sales distribution across product categories.
 - **Line Plots**: To show sales trends and seasonal fluctuations.
-- **Heatmaps**: To represent purchasing patterns by age group and product category.
+- **Scatterplots**: To represent purchasing patterns by age group and product category.
 
 ---
 
